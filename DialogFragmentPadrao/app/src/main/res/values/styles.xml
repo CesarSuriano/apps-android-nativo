@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MeuDialog" parent="Theme.AppCompat.Light.Dialog"
+        >
+        <!--&lt;!&ndash; title encapsulating main part (backgroud) of custom alertdialog &ndash;&gt;-->
+        <!--<item-->
+            <!--name="android:windowFrame">@null</item>-->
+        <!--&lt;!&ndash; turn off any drawable used to draw a frame on the window &ndash;&gt;-->
+        <!--<item-->
+            <!--name="android:windowBackground">@null</item>-->
+        <!--&lt;!&ndash; turn off any drawable used to draw a frame on the window &ndash;&gt;-->
+        <!--<item-->
+            <!--name="android:windowIsFloating">true</item>-->
+        <!--&lt;!&ndash; float the window so it does not fill the screen &ndash;&gt;-->
+        <!--<item-->
+            <!--name="android:windowNoTitle">true</item>-->
+        <!--&lt;!&ndash; remove the title bar we make our own&ndash;&gt;-->
+        <!--<item-->
+            <!--name="android:windowContentOverlay">@null</item>-->
+        <!--&lt;!&ndash; remove the shadow from under the title bar &ndash;&gt;-->
+    </style>
+
+</resources>
