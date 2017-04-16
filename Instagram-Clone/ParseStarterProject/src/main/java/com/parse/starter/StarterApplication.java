@@ -21,40 +21,39 @@ import com.parse.SaveCallback;
 
 public class StarterApplication extends Application {
 
-  @Override
-  public void onCreate() {
-    super.onCreate();
+    @Override
+    public void onCreate() {
+        super.onCreate();
 
-    // Habilite armazenamento local.
-    Parse.enableLocalDatastore(this);
+        // Habilite armazenamento local.
+        Parse.enableLocalDatastore(this);
 
-    // Codigo de configuração do App
-    Parse.initialize(new Parse.Configuration.Builder(getApplicationContext())
-            .applicationId("APPLICATION_ID_AQUI")
-            .clientKey(null)
-            .server("URL_SERVIDOR")
-    .build()
-    );
+        // Codigo de configuração do App
+        Parse.initialize(new Parse.Configuration.Builder(getApplicationContext())
+                .applicationId("M5j7jGKVDb8aePFTZK41XoPF2VlMejuDXutzAMZW")
+                .clientKey("s2ZGfP0zxo18X5xWtheU3FNJOi7MJ2OsYwwVHJxj")
+                .server("https://parseapi.back4app.com/")
+                .build()
+        );
 
-    /*
-      // Teste de configuração do App
-      ParseObject pontuacao = new ParseObject("Pontuacao");
-      pontuacao.put("pontos", 100);
-      pontuacao.saveInBackground(new SaveCallback() {
-          public void done(ParseException e) {
-              if (e == null) {
-                  Log.i("TesteExecucao", "Salvo com sucesso!!!");
-              } else {
-                  Log.i("TesteExecucao", "Falha ao salvar os dados!!!");
-              }
-          }
-      });
-    */
 
-      ParseUser.enableAutomaticUser();
-    ParseACL defaultACL = new ParseACL();
-    // Optionally enable public read access.
-    // defaultACL.setPublicReadAccess(true);
-    ParseACL.setDefaultACL(defaultACL, true);
-  }
+        // Teste de configuração do App
+        ParseObject pontuacao = new ParseObject("Pontuacao");
+        pontuacao.put("pontos", 100);
+        pontuacao.saveInBackground(new SaveCallback() {
+            public void done(ParseException e) {
+                if (e == null) {
+                    Log.i("TesteExecucao", "Salvo com sucesso!!!");
+                } else {
+                    Log.i("TesteExecucao", "Falha ao salvar os dados!!!");
+                }
+            }
+        });
+
+        ParseUser.enableAutomaticUser();
+        ParseACL defaultACL = new ParseACL();
+        // Optionally enable public read access.
+        // defaultACL.setPublicReadAccess(true);
+        ParseACL.setDefaultACL(defaultACL, true);
+    }
 }

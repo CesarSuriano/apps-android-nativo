@@ -2,46 +2,123 @@
 <items version="2" >
 
     <item
-        jar="/Users/robpercival/.gradle/caches/modules-2/files-2.1/com.parse/parse-android/1.13.0/58a7d54b6a4f28be11f0cecec93097eddf473e6f/parse-android-1.13.0.jar"
+        jar="D:\Android\Tutorias\Instagram-Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
         jumboMode="false"
-        revision="23.0.1"
-        sha1="58a7d54b6a4f28be11f0cecec93097eddf473e6f">
-        <dex dex="/Users/robpercival/Desktop/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/pre-dexed/debug/parse-android-1.13.0-dad18202da1f77a2b2d4626b645dd15f9fac1a68.jar" />
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="D:\Android\Tutorias\Instagram-Clone\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-ec51e845d1d7cfeda250a45bc0cb66adc057c812.jar" />
     </item>
     <item
-        jar="/Users/robpercival/Desktop/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jar="D:\Android\Tutorias\Instagram-Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
         jumboMode="false"
-        revision="23.0.1"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="/Users/robpercival/Desktop/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-b99c9021cb4e7cff914c6c5cacdda7cd489c4afd.jar" />
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="D:\Android\Tutorias\Instagram-Clone\ParseStarterProject\build\intermediates\pre-dexed\debug\internal_impl-25.0.1-3dd301ebe4be42a6aafef00071e0c8c4cb199c81.jar" />
     </item>
     <item
-        jar="/Users/robpercival/Desktop/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jar="C:\Users\Cesar\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
         jumboMode="false"
-        revision="23.0.1"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="/Users/robpercival/Desktop/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-2b30b28a2f308286d9dc734cbe3874d1f2691021.jar" />
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="D:\Android\Tutorias\Instagram-Clone\ParseStarterProject\build\intermediates\pre-dexed\debug\support-annotations-25.0.1-5a9d553ca140b1d0935454c8e723c421dcb87d1e.jar" />
     </item>
     <item
-        jar="/Users/robpercival/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jar="D:\Android\Tutorias\Instagram-Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
         jumboMode="false"
-        revision="23.0.1"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/Users/robpercival/Desktop/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-d4370917688e98d570f9c4e6647cdc2b49c9e78b.jar" />
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="D:\Android\Tutorias\Instagram-Clone\ParseStarterProject\build\intermediates\pre-dexed\debug\internal_impl-25.0.1-58f085fa0e9e977f3ab1b1fff0fcd71e93ebaa9c.jar" />
     </item>
     <item
-        jar="/Users/robpercival/Desktop/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jar="D:\Android\Tutorias\Instagram-Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
         jumboMode="false"
-        revision="23.0.1"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/Users/robpercival/Desktop/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/pre-dexed/debug/classes-25f2a0cdc3342422f6aba13b8393932001c8416f.jar" />
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Android\Tutorias\Instagram-Clone\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-0f5584c373fe6f581e12e1d58b1c9e60cefb3f43.jar" />
     </item>
     <item
-        jar="/Users/robpercival/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jar="D:\Android\Tutorias\Instagram-Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
         jumboMode="false"
-        revision="23.0.1"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="D:\Android\Tutorias\Instagram-Clone\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-8c38e7fb75284635dfd08f100457a159e7e77269.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cesar\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        revision="25.0.1"
         sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Users/robpercival/Desktop/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0-6454d756a1331c0dc72a1a0a08357e1a310c2df6.jar" />
+        <dex dex="D:\Android\Tutorias\Instagram-Clone\ParseStarterProject\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0-9bc081be99c395722c26943b2344fe0f5241bc74.jar" />
+    </item>
+    <item
+        jar="D:\Android\Tutorias\Instagram-Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="D:\Android\Tutorias\Instagram-Clone\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-a3e08b7b0239cf3008e368bcec74d8f87a5072f7.jar" />
+    </item>
+    <item
+        jar="D:\Android\Tutorias\Instagram-Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="D:\Android\Tutorias\Instagram-Clone\ParseStarterProject\build\intermediates\pre-dexed\debug\internal_impl-25.0.1-d3c5a61142de7c8c91aa8b51db0045149dbc5360.jar" />
+    </item>
+    <item
+        jar="C:\Users\Cesar\.gradle\caches\modules-2\files-2.1\com.parse\parse-android\1.13.0\58a7d54b6a4f28be11f0cecec93097eddf473e6f\parse-android-1.13.0.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="58a7d54b6a4f28be11f0cecec93097eddf473e6f">
+        <dex dex="D:\Android\Tutorias\Instagram-Clone\ParseStarterProject\build\intermediates\pre-dexed\debug\parse-android-1.13.0-fb976a8b085c6c0214f88d15ede0978b3cc02125.jar" />
+    </item>
+    <item
+        jar="D:\Android\Tutorias\Instagram-Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="D:\Android\Tutorias\Instagram-Clone\ParseStarterProject\build\intermediates\pre-dexed\debug\internal_impl-25.0.1-ead311f95f5243342a9ff80812575fb2820522a7.jar" />
+    </item>
+    <item
+        jar="D:\Android\Tutorias\Instagram-Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="D:\Android\Tutorias\Instagram-Clone\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-c88b0b78cd53248b5ef798b5962cef9ed8181015.jar" />
+    </item>
+    <item
+        jar="D:\Android\Tutorias\Instagram-Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="D:\Android\Tutorias\Instagram-Clone\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-c059a6a950ce147e880fec4858b2e8384fb167ae.jar" />
+    </item>
+    <item
+        jar="D:\Android\Tutorias\Instagram-Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="D:\Android\Tutorias\Instagram-Clone\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-9f431d450bfb88b6dad1219a901c12be9c5a598e.jar" />
+    </item>
+    <item
+        jar="D:\Android\Tutorias\Instagram-Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="D:\Android\Tutorias\Instagram-Clone\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-388ff18525cd39a7f0b43469f68aff629323b395.jar" />
+    </item>
+    <item
+        jar="D:\Android\Tutorias\Instagram-Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="D:\Android\Tutorias\Instagram-Clone\ParseStarterProject\build\intermediates\pre-dexed\debug\classes-924722b13a537fe3163fb08837508b85dce8a5b5.jar" />
+    </item>
+    <item
+        jar="D:\Android\Tutorias\Instagram-Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="D:\Android\Tutorias\Instagram-Clone\ParseStarterProject\build\intermediates\pre-dexed\debug\internal_impl-25.0.1-f849f3071c980397ab8745694df12142bcb2ccf5.jar" />
     </item>
 
 </items>
