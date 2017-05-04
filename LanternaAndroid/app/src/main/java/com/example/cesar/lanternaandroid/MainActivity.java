@@ -32,9 +32,8 @@ public class MainActivity extends AppCompatActivity {
         final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        final RelativeLayout activityMain = (RelativeLayout)findViewById(R.id.activity_main);
+        final RelativeLayout activityMain = (RelativeLayout) findViewById(R.id.activity_main);
         //ThemeUtils.onActivityCreateSetTheme(this)
-
 
 
         final Window window = this.getWindow();
@@ -49,29 +48,39 @@ public class MainActivity extends AppCompatActivity {
 //
 //
 
-        final Button botao = (Button)findViewById(R.id.botao);
+        final Button botao = (Button) findViewById(R.id.botao);
 
         botao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
                 //if(cam.getParameters() == null){
-                if (validador == 0){
+                if (validador == 0) {
                     toolbar.setBackgroundColor(getResources().getColor(R.color.colorPrimaryLight));
                     activityMain.setBackgroundColor(Color.parseColor("#d5d5d5"));
                     window.setStatusBarColor(ContextCompat.getColor(MainActivity.this, R.color.colorPrimaryDarkLight));
                     botao.setBackground(getResources().getDrawable(R.drawable.circle_light));
                     botao.setText("Desligar");
-                    cam.setParameters(p);
-                    cam.startPreview();
+                    new Thread(new Runnable() {
+                        @Override
+                        public void run() {
+                            cam.setParameters(p);
+                            cam.startPreview();
+                        }
+                    }).start();
                     validador = 1;
-                }else{
+                } else {
                     toolbar.setBackgroundColor(getResources().getColor(R.color.colorPrimaryDark));
                     activityMain.setBackgroundColor(getResources().getColor(R.color.colorPrimaryDarkDark));
                     window.setStatusBarColor(ContextCompat.getColor(MainActivity.this, R.color.colorPrimaryDarkDark));
                     botao.setBackground(getResources().getDrawable(R.drawable.circle_dark));
                     botao.setText("Ligar");
-                    cam.stopPreview();
+                    new Thread(new Runnable() {
+                        @Override
+                        public void run() {
+                            cam.stopPreview();
+                        }
+                    }).start();
                     validador = 0;
                 }
 
